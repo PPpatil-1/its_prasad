@@ -10,16 +10,18 @@ public class NestedIfElseExample {
 				System.out.println("i am a girl");
 			}else {
 				System.out.println("i am a women");
-			}if(s== "boy") {
+			}
+		}
+		else if(s== "boy") {
 				int a = 15;
 				if(a<=18) {
 					System.out.println("I am a boy");
 				}else {
 					System.out.println("I am man");
 				}
-			}else {
+		}else {
 				System.out.println("i am animal");
 			}
-		}
+		
 		}
 }
