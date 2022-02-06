@@ -18,9 +18,9 @@ public class ActionClassMethods {
         driver = new ChromeDriver();
     	}
 	
-	public static void Openapllictionurl(String url) {
+	public static void Openapllictionurl(String applicationUrl) {
 		
-		driver.get(url); 
+		driver.get(applicationUrl); 
 	}
 	
 	public static void mouceevents() {
