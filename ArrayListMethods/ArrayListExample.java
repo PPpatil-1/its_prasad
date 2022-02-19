@@ -14,7 +14,8 @@ public class ArrayListExample {
 		list.add(53.14f);            // add double value
 		list.add(true);              // add boolean value
 		list.add('p');               // add character value
-		list.add("prasad");          // add string value
+		list.add("prasad"); 
+                list.add ("12")                    // add string value
 
 		System.out.println(list);
 
