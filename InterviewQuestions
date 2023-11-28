@@ -1,0 +1,435 @@
+package JavaPrograms;
+
+import java.util.Arrays;
+
+import javax.sound.midi.Synthesizer;
+import javax.swing.plaf.synth.SynthDesktopIconUI;
+
+public class Interviewprograms {
+
+	public static void main(String[] args) {
+		  
+		// reverse print number
+		
+//		int a=2387590;
+//		int rev=0;
+//		while(a!=0) {
+//			rev= rev*10+a%10;
+//			a=a/10;
+//		}
+//       System.out.println(rev);
+		
+		// missing number
+		
+//		int a[]= {1,2,4,5};
+//		int length=a.length;
+//		int sum=0;
+//		int sum1=0;
+//		for(int i=1;i<=5;i++) {
+//			sum=sum+i;
+//		}
+//       for(int j=0;j<length;j++) {
+//    	  sum1= sum1+a[j]; 
+//       }
+//       System.out.println("missing element :"+(sum-sum1));
+		
+		// sum of digit
+		
+//		int a=37649;
+//		int sum=0;
+//		while(a!=0) {
+//			sum=sum+a%10;
+//			a=a/10;
+//		}
+//       System.out.println("sum :"+sum);
+		
+		// count even and odd digit
+		
+//		int a=148629;
+//		int even=0;
+//		int odd=0;
+//		while(a!=0) {
+//			int num=a%10;
+//			if(num%2==0) {
+//				even++;
+//			}else{
+//				odd++;
+//			}
+//			a=a/10;
+//			}
+//		
+//		System.out.println("even :"+even+"    odd :"+odd);
+		
+		// sum of even and odd digit
+		
+//		int a= 497237;
+//		int even=0;
+//		int odd=0;
+//		while(a!=0) {
+//			int num=a%10;
+//			if(num%2==0) {
+//				even=even+num;
+//			}else {
+//				odd=odd+num;
+//			}
+//			a=a/10;
+//		}
+//		System.out.println("even sum :"+even+"   odd sum :"+odd);
+		
+		// reverse the string 
+		
+//		String s="my name is prasad";
+//		String rev="";
+//		for(int i=s.length()-1;i>=0;i--) {
+//			rev= rev+s.charAt(i);
+//		}
+//		System.out.println("rever string :"+rev);
+		
+		// reverse the wordsat its place
+		
+//		String s= "My name is prasad";
+//		String arr[]=s.split(" ");
+//		String rev="";
+//		for(String Arr:arr) {
+//			char ch[]=Arr.toCharArray();
+//			int length=Arr.length();
+//			for(int i=length-1;i>=0;i--) {
+//				rev=rev+ch[i]+"";
+//			}
+//			
+//		}
+//		
+//		System.out.println("reverse words at its place :"+rev);
+		
+		// duplicate character
+		
+//		String s="sdesdjrerro";
+//		char ch[]=s.toCharArray();
+//		for(int i=0;i<s.length();i++) {
+//			for(int j=i+1;j<s.length();j++) {
+//				if(ch[i]==ch[j]) {
+//					System.out.println("duplicate character :"+ch[j]);
+//				}
+//			}
+//		}
+		
+		// first letter upper case
+		
+//		String s="my name is prasad";
+//		String arr[]=s.split(" ");
+//		for(String Arr:arr) {
+//			System.out.print(Arr.substring(0,1).toUpperCase()+Arr.substring(1,Arr.length())+" ");
+//		}
+		
+		// count digit in string
+		
+//		String s="sadas23 dsa7as9 sdfas75";
+//		int count=0;
+//		char ch[]=s.toCharArray();
+//		for(int i=0;i<s.length();i++) {
+//			if(Character.isDigit(ch[i])) {
+//				count++;
+//			}
+//		}
+//		System.out.println("Count :"+count);
+		
+		// reverse word place only
+		
+//		String s="my name is prasad";
+//		String arr[]=s.split(" ");
+//		String rev="";
+//		for(int i=arr.length-1;i>=0;i--) {
+//			rev=rev+arr[i]+" ";
+//		}
+//		System.out.println("reverse words place only :"+rev);
+		
+		// count spaces in one line
+		
+//		String S="my name is prasad";
+//		int count=0;
+//		
+//		for(int i=0;i<S.length();i++) {
+//			if(S.charAt(i)==' ') {
+//				count++;
+//			}
+//			
+//		}
+//		System.out.println("count :"+count);
+		
+		// count letters
+		
+//		String S="my name is prasad";
+//		int length=S.length();
+//		int count=0;
+//		for(int i=0;i<S.length();i++) {
+//			if(S.charAt(i)==' ') {
+//			count++;
+//			}
+//		}
+//		System.out.println("count of letters :"+(length-count));|
+		
+		// remove space
+		
+//		String S="my name is prasad";
+//		System.out.println("after removing space :"+S.replace(" ", ""));
+		
+		// count ovel
+		
+//		String S="my name is prasadii";
+//		int count=0;
+//		for(int i=0;i<S.length();i++) {
+//			if(S.charAt(i)=='a'||S.charAt(i)=='e'||S.charAt(i)=='i'||S.charAt(i)=='o'||S.charAt(i)=='u') {
+//				count++;
+//			}
+//		}
+//		
+//		System.out.println("count of vowel :"+count);
+		
+		// find number is prime or not
+		
+//	int a=49;
+//	int count=0;
+//	if(a>1) {
+//		for(int i=1;i<=a;i++) {
+//			if(a%i==0) {
+//				count++;
+//			}
+//		}
+//	}
+//	if(count==2) {
+//		System.out.println("prime number :"+a);
+//	}else {
+//		System.out.println("not prime number :"+a);
+//	}	
+		
+		
+		// print natural number 
+		
+//		int a=1;
+//		int b=150;
+//		int i,j;
+//		
+//			for(i=a;i<=b;i++) {
+//				for(j=2;j<=i;j++) {
+//					if(i%j==0)
+//						break;
+//					
+//				}
+//				if(i==j) 
+//					System.out.print(j+" ");
+//				
+//			}
+			
+			
+			// star patterns 
+			
+//for(int i=1;i<=5;i++) {
+//	for(int j=1;j<=5;j++) {
+//		System.out.print("*");
+//	}
+//	System.out.println();
+//}
+		 
+//		for(int i=1;i<=5;i++) {
+//			for(int j=1;j<=i;j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		for(int i=5;i>=0;i--) {
+//			for(int j=1;j<=i;j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		for(int i=1;i<=5;i++) {
+//			for(int j=1;j<=i;j++) {
+//				System.out.print(" ");
+//			}
+//			for(int k=5;k>=i;k--) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+		
+//		for(int i=1;i<=5;i++) {
+//			for(int j=4;j>=i;j--) {
+//				System.out.print(" ");
+//			}
+//			for(int k=1;k<=i;k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+		
+//		for(int i=1;i<=5;i++) {
+//			for(int j=4;j>=i;j--) {
+//				System.out.print(" ");
+//			}
+//			for(int k=1;k<=i;k++) {
+//				System.out.print("* ");
+//			}
+//			System.out.println();
+//		}
+		
+//		int a=37;
+//		int count=0;
+//		if(a>1) {
+//			for(int i=1;i<=a;i++) {
+//				if(a%i==0) {
+//					count++;
+//				}
+//			}
+//			if(count==2) {
+//				System.out.println("prime number :"+a);
+//			}else {
+//				System.out.println("not prime number :"+a);
+//			}
+//		}
+		
+//		int a=1;
+//		int b=100;
+//		int i,j;
+//		for(i=a;i<=b;i++) {
+//			for(j=2;j<=i;j++) {
+//				if(i%j==0)
+//					break;
+//			}
+//			if(i==j) {
+//				System.out.print(j+" ");
+//			}
+//		}
+		
+//		
+
+	
+	// LCM
+	
+//	int n1=15;int n2=20; int gcd=1;
+//	for(int i=1;i<=n1 && i<=n2;i++) {
+//		if(n1%i ==0 && n2%i ==0) {
+//			gcd=i;
+//		}
+//		
+//	}
+//	int lcm=(n1*n2)/gcd;
+////	System.out.printf("The LCM of %d and %d is %d.", n1, n2, lcm);
+//	System.out.println(lcm);
+	
+		// sort all the charcters in string
+		
+//	String S="my name is prasad";
+//	char ch[]=S.toCharArray();
+//	Arrays.sort(ch);
+//	System.out.println(ch);
+	
+		//count the occurrence of character 
+		
+//		String S="my name is prasad";
+//		char ch='a';
+//		int count=0;
+//		for(int i=0;i<S.length();i++) {
+//			if(S.charAt(i)==ch) {
+//				count++;
+//			}
+//		}
+//	System.out.println(count);
+		
+		// sum of digit in string
+		
+//		String S="my23 name4 is3 prasad2";
+//		char ch[]=S.toCharArray();
+//		int sum=0;
+//		for(int i=0;i<S.length();i++) {
+//			if(Character.isDigit(ch[i])) {
+//				sum=sum+Character.getNumericValue(ch[i]);
+//			}
+//		}
+//		System.out.println(sum);
+		
+		// sum of array element and its average
+		
+//		int a[]= {23,12,3,56,6};
+//		int sum=0;
+//		for(int i=0;i<a.length;i++) {
+//			sum=sum+a[i];
+//		}
+//		System.out.println(sum);
+//		int length=a.length;
+//		int average=sum/length;
+//		System.out.println(average);
+		
+		
+		// string is palindrom
+		
+//		String S="naman";
+//		String rev="";
+//		for(int i=S.length()-1;i>=0;i--) {
+//			rev=rev+S.charAt(i);
+//		}
+//	
+//		if(rev.equals(S)) {
+//			System.out.println("String is palindrone");
+//		}else {
+//			System.out.println("String is not palindrone");
+//		}
+		
+		
+		// number is palindrone
+		
+//		int a=121;
+//		int rev=0;
+//		while(a!=0) {
+//			rev=rev*10+a%10;
+//			a=a/10;
+//		}
+//		System.out.println(rev);
+//		if(rev==a) {
+//			System.out.println("number is palindrone");
+//		}else {
+//			System.out.println("number is not palindrone");
+//		}
+		
+		// find ascii value of character|
+		
+//		char ch='b';
+//		int ch_b=ch;                     // covert char value into interger
+//		System.out.println(ch_b);
+		
+		// sum of 100 namtural number
+		
+//		int sum=0;
+//		for(int i=1;i<=100;i++) {
+//			sum=sum+i;
+//		}
+//		System.out.println(sum);
+		
+		
+		// check string is anagram or not
+		
+		String S="Race";
+		String S1="Care";
+		
+		S=S.toLowerCase();
+		S1=S1.toLowerCase();
+		
+		char Arr[]=S.toCharArray();
+		char Arr1[]=S1.toCharArray();
+		
+		Arrays.sort(Arr);
+		Arrays.sort(Arr1);
+		
+		
+		Boolean result=Arrays.equals(Arr, Arr1);
+		if(result.equals(true)) {
+			System.out.println("String is anagram");
+		}else {
+			System.out.println("String is not anagram");
+		}
+		
+	}
+	}
+
+
